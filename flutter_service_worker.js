@@ -3,12 +3,13 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "06010e2fc7dc2392ba4f2b66f258904e",
+  "assets/AssetManifest.json": "0cc81086587a174ba1689b3bd9f1814c",
 "assets/assets/images/back_01.png": "4528d124aba879d10afe53a84ab53dd1",
 "assets/assets/images/back_02.png": "6fbc2882e53577423733c39da364672b",
 "assets/assets/images/back_03.png": "b617ae8a6f243bdb5da2edf984fbf4d7",
 "assets/assets/images/bender_r.png": "be213d7bb52fe62dad7e649e9f601446",
 "assets/assets/images/ru.png": "ee47cd69a345325dadb776533ec0e294",
+"assets/assets/images/telegram.png": "08412639439510ebb7b148b44ce6778b",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/NOTICES": "a208f3ee6ec6013a3b323871537940d3",
@@ -23,9 +24,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "5bfe22bef164db5b98a5e982d9c60014",
-"/": "5bfe22bef164db5b98a5e982d9c60014",
-"main.dart.js": "9f8be1c8d29df7e52830805377594d5f",
+"index.html": "b2f9536fa287f74bd4a5bebbc1d99c3d",
+"/": "b2f9536fa287f74bd4a5bebbc1d99c3d",
+"main.dart.js": "318ee5c06a84337619c83bb884d3c196",
 "manifest.json": "f4176eaa8650dfac10a0f5cf36d02e79",
 "version.json": "e8ad593fbac129002e95ea713730a5fe"
 };
@@ -35,7 +36,6 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
